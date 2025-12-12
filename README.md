@@ -1,1 +1,1 @@
-for hypnotherapist to use as a helper
+for student of hypnosis and those who interested in basic hypnosis
