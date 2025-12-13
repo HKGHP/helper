@@ -9,7 +9,7 @@ const Progress = {
             <div class="progress-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Your Progress</h1>
-                    <p class="text-secondary">Track your learning journey</p>
+                    <p class="text-secondary">Track your learning journey</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 <div class="stats-overview">
@@ -240,7 +240,7 @@ const Progress = {
         const recentSessions = sessions.slice(-5).reverse();
 
         if (recentSessions.length === 0) {
-            return '<div class="empty-state">No study sessions yet. Start learning to see your progress!</div>';
+            return '<div class="empty-state">No study sessions yet. Start learning to see your progress! </div>';
         }
 
         return `

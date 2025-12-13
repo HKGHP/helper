@@ -12,7 +12,7 @@ const Quiz = {
             <div class="quiz-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Knowledge Quizzes</h1>
-                    <p class="text-secondary">Test your understanding of hypnosis</p>
+                    <p class="text-secondary">Test your understanding of hypnosis</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 <div class="quizzes-grid">
@@ -401,10 +401,10 @@ const Quiz = {
                 : 'score-needs-work';
 
         const message = percentage >= 80
-            ? 'Excellent work! You have a strong understanding of this topic.'
+            ? 'Excellent work! <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>'
             : percentage >= 60
                 ? 'Good job! Review the explanations to strengthen your knowledge.'
-                : 'Keep studying! Review the material and try again.';
+                : '<p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/>You can go for the full course here</a></p>';
 
         const content = `
             <div class="quiz-results fade-in">
@@ -483,7 +483,7 @@ const Quiz = {
     },
 
     exitQuiz() {
-        if (confirm('Are you sure you want to exit? Your progress will be lost.')) {
+        if (confirm('Are you sure you want to exit? Your progress will be lost. <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>')) {
             this.currentQuiz = null;
             App.navigate('quiz');
         }
