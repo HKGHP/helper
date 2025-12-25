@@ -12,7 +12,7 @@ const Quiz = {
             <div class="quiz-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Knowledge Quizzes</h1>
-                    <p class="text-secondary">Test your understanding of hypnosis</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>
+                    <p class="text-secondary">Test your understanding of hypnosis</p><p class="text-secondary"><a href="hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 <div class="quizzes-grid">
@@ -401,10 +401,10 @@ const Quiz = {
                 : 'score-needs-work';
 
         const message = percentage >= 80
-            ? 'Excellent work! <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>'
+            ? 'Excellent work! <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>'
             : percentage >= 60
                 ? 'Good job! Review the explanations to strengthen your knowledge.'
-                : '<p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/>You can go for the full course here</a></p>';
+                : '<p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home>You can go for the full course here</a></p>';
 
         const content = `
             <div class="quiz-results fade-in">
@@ -489,3 +489,4 @@ const Quiz = {
         }
     }
 };
+
