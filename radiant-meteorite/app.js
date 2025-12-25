@@ -72,7 +72,7 @@ const App = {
             <div class="home-page fade-in">
                 <div class="welcome-banner card-gradient card">
                     <h1 class="gradient-text">Welcome to HypnoStudy</h1>
-                    <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>
+                    <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 <div class="quick-stats">
@@ -321,3 +321,4 @@ const App = {
 document.addEventListener('DOMContentLoaded', () => {
     App.init();
 });
+
