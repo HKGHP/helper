@@ -12,7 +12,7 @@ const Scripts = {
             <div class="scripts-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Practice Scripts</h1>
-                    <p class="text-secondary">Professional scripts to perfect your delivery</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>
+                    <p class="text-secondary">Professional scripts to perfect your delivery</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 ${categories.map(category => `
@@ -359,3 +359,4 @@ const Scripts = {
         App.navigate('scripts');
     }
 };
+
