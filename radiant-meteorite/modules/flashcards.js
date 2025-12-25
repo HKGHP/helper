@@ -12,7 +12,7 @@ const Flashcards = {
             <div class="flashcards-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Flashcards</h1>
-                    <p class="text-secondary">Master hypnosis with spaced repetition</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com" target="_blank">You can go straight to the full course here</a></p>
+                    <p class="text-secondary">Master hypnosis with spaced repetition</p><p class="text-secondary"><a href="hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 <div class="decks-grid">
@@ -471,3 +471,4 @@ const Flashcards = {
         App.navigate('flashcards');
     }
 };
+
