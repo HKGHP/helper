@@ -9,7 +9,7 @@ const Progress = {
             <div class="progress-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Your Progress</h1>
-                    <p class="text-secondary">Track your learning journey <a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
+                    <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
                 </div>
 
                 <div class="stats-overview">
@@ -361,6 +361,7 @@ const Progress = {
         return date.toLocaleDateString();
     }
 };
+
 
 
 
