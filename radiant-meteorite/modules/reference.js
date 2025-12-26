@@ -10,6 +10,8 @@ const Reference = {
             <div class="reference-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Quick Reference</h1>
+                     <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
+          
                       </div>
 
                 <div class="search-box card glass-card">
@@ -226,6 +228,7 @@ const Reference = {
         App.navigate('reference');
     }
 };
+
 
 
 
