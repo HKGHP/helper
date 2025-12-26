@@ -9,8 +9,7 @@ const Progress = {
             <div class="progress-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Your Progress</h1>
-                    <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
-                </div>
+                        </div>
 
                 <div class="stats-overview">
                     ${this.renderStatCard('Study Time', `${Math.floor(progress.totalStudyTime / 60)}h ${progress.totalStudyTime % 60}m`, '📚')}
@@ -361,6 +360,7 @@ const Progress = {
         return date.toLocaleDateString();
     }
 };
+
 
 
 
