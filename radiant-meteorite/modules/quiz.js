@@ -12,8 +12,7 @@ const Quiz = {
             <div class="quiz-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Knowledge Quizzes</h1>
-                    <p class="text-secondary">Test your understanding of hypnosis</p><p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
-                </div>
+                        </div>
 
                 <div class="quizzes-grid">
                     ${quizzes.map(quiz => this.renderQuizCard(quiz)).join('')}
@@ -489,6 +488,7 @@ const Quiz = {
         }
     }
 };
+
 
 
 
