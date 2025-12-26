@@ -10,7 +10,8 @@ const StudyMaterials = {
             <div class="study-materials-page">
                 <div class="page-header">
                     <h1 class="gradient-text">Study Materials</h1>
-                    <p class="text-secondary">Comprehensive guides with personal notes</p>
+                    <p class="text-secondary">Comprehensive guides with personal notes</p> <p class="text-secondary"><a href="https://hypnotherapyandpsychotherapy.teachable.com/p/home" target="_blank">You can go straight to the full course here</a></p>
+          
                 </div>
 
                 <div class="materials-grid">
@@ -224,3 +225,4 @@ const StudyMaterials = {
         App.navigate('home');
     }
 };
+
